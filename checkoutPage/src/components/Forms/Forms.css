@@ -1,0 +1,48 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    flex-shrink: 0;
+}
+
+.inputField input{
+    width: 100%;
+}
+
+.inputField p {
+    text-align: center;
+}
+
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.location .inputField{
+    width: 48%;
+}
+
+.inputBase, .inputBase input{
+    border-radius: 12px !important;
+    min-height: 40px !important;
+}
+
+@media (max-width: 345px){
+    .location{
+        flex-direction: column;
+    }
+
+    .location .inputField{
+        width: 100%;
+    }
+}
+
+
+.inputBase input, .selected-value{  
+    padding: 4px 8px 4px 44px!important;
+}
